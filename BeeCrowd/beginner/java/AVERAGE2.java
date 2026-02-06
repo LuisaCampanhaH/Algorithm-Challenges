@@ -1,3 +1,4 @@
+package java;
 // PROBLEMA 1006 - Average 2
 // LINK - (https://judge.beecrowd.com/en/problems/view/1006)//
 // DESCRIÇÃO: MEDIA PONDERADA SENDO O PRIMEIRO VALOR COM PESO 2, 

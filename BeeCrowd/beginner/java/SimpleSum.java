@@ -1,3 +1,4 @@
+package java;
 // PROBLEMA 1003 - Simple Sum//
 // LINK - (https://judge.beecrowd.com/en/problems/view/1003)//
 // DESCRIÇAO: UMA SOMA SIMPLES DE DOIS NÚMEROS NATURAIS//

@@ -1,3 +1,4 @@
+package java;
 // PROBLEMA 1007 - Difference
 // LINK - (https://judge.beecrowd.com/en/problems/view/1007)//
 // DESCRIÇÃO: Uma subtração simples de 4 numeros inteiros
