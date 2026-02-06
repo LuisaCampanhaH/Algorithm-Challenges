@@ -9,9 +9,9 @@ int main()
     double fuel;
     int km;
     double consumption;
-    scanf("%i %d",&km,&fuel);
+    scanf("%i %lf",&km,&fuel);
     consumption = km / fuel;
-    printf("%d km/l\n");
+    printf("%.3lf km/l\n",consumption);
     return 0;
     
 }
