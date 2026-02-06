@@ -13,5 +13,4 @@ int main()
     consumption = km / fuel;
     printf("%.3lf km/l\n",consumption);
     return 0;
-    
 }
