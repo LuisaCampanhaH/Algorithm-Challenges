@@ -1,20 +1,15 @@
-// PROBLEMA 1278 - Justifier II
-// LINK - (https://judge.beecrowd.com/en/problems/view/1278)//
-// INPUT: The input contains several test cases.
-// The first line of a test case will contain an integer N (1 ≤ N ≤ 100) indicating the number of lines
-//  hat form the text. Each of the following N lines will contain a text, composed of 1 to 50 uppercase letters
-// (‘A’-‘Z’) or spaces (‘ ’).
-//   ll text lines will contain at least one letter.
-// There may be more than one space character between words.
-// Also, there may be leading and trailing spaces in the input lines.
-// The end of input is indicated by N = 0.
-//  OUTPUT :For each test case print the text lines with a single space character between words, 
-// and padded on the left with space characters so that all the lines will have the same length as the longest 
-// line existing in that text. Print an empty line between all the test cases. 
-// There must be no trailing spaces printed out, 
-// and you should discard any unnecessary leading spaces,
-//  so that at least one line on every text starts with a letter.//
-// // LINGUAGEM: C //
+/*
+ * PROBLEMA: 1278 - Justificador II (Justifier II)
+ * PLATAFORMA: Beecrowd
+ * LINK: https://judge.beecrowd.com/en/problems/view/1278
+ * LINGUAGEM: C
+ *
+ * RESUMO:
+ * Ler N linhas, remover espaços excedentes e alinhar o texto à direita
+ * baseando-se na linha de maior comprimento. Imprimir uma linha em branco
+ * apenas ENTRE os casos de teste.
+ */
+
 
 #include <stdio.h>
 #include <string.h>
