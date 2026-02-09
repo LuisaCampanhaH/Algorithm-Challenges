@@ -1,31 +1,34 @@
-package java;
-// PROBLEMA 1006 - Average 2
-// LINK - (https://judge.beecrowd.com/en/problems/view/1006)//
-// DESCRIÇÃO: MEDIA PONDERADA SENDO O PRIMEIRO VALOR COM PESO 2, 
-// O SEGUNDO COM PESO 3 E O TERCEIRO COM PESO 5.
-// CADA NOTA PODE IR DE 0 A 10.0//
-// INPUT: 5.0 6.0 7.0 //
-// OUTPUT : MEDIA = 6.3//
-// LINGUAGEM: JAVA //
+/*
+ * PROBLEMA: 1006 - Average 2 (Média 2)
+ * PLATAFORMA: Beecrowd
+ * LINK: https://judge.beecrowd.com/en/problems/view/1006
+ * LINGUAGEM: Java
+ *
+ * RESUMO:
+ * Ler 3 notas (A, B e C) com pesos 2, 3 e 5 respectivamente.
+ * Calcular a média ponderada e imprimir com 1 casa decimal.
+ */
 
+import java.io.IOException;
 import java.util.Scanner;
+import java.util.Locale;
 
-public class AVERAGE2 {
-    public static void main (String[] args)
-    {
-        float a;
-        float b; 
-        float c; 
-        float media;
+public class Main {
+ 
+    public static void main(String[] args) throws IOException {
+        // Define o Locale para US para garantir que o ponto seja o separador decimal
+        Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
-        a = sc.nextFloat();
-        b = sc.nextFloat();
-        c = sc.nextFloat();
-        media = a * 2;
-        media += b * 3;
-        media += c * 5;
-        media = media / 10;
-        System.out.printf("MEDIA = %.1f%n", media);
+        
+        double A = sc.nextDouble();
+        double B = sc.nextDouble();
+        double C = sc.nextDouble();
+ 
+        // Cálculo da média ponderada
+        double media = ((A * 2) + (B * 3) + (C * 5)) / 10.0;
+ 
+        System.out.printf("MEDIA = %.1f\n", media);
+        
         sc.close();
     }
 }
