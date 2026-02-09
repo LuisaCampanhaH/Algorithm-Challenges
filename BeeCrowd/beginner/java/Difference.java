@@ -1,29 +1,32 @@
-package java;
-// PROBLEMA 1007 - Difference
-// LINK - (https://judge.beecrowd.com/en/problems/view/1007)//
-// DESCRIÇÃO: Uma subtração simples de 4 numeros inteiros
-// INPUT: 5 6 7 8  //
-// OUTPUT : DIFERENCA = -26//
-// LINGUAGEM: JAVA //
+/*
+ * PROBLEMA: 1007 - Difference (Diferença)
+ * PLATAFORMA: Beecrowd
+ * LINK: https://judge.beecrowd.com/en/problems/view/1007
+ * LINGUAGEM: Java
+ *
+ * RESUMO:
+ * Ler 4 valores inteiros (A, B, C, D).
+ * Calcular a diferença do produto de A e B pelo produto de C e D.
+ * Fórmula: DIFERENCA = (A * B - C * D).
+ */
 
 import java.util.Scanner;
+import java.io.IOException;
 
-public class Difference {
-    public static void main (String[] args)
-    {
-        int a;
-        int b;
-        int c;
-        int d;
-        int diferenca;
+public class Main {
+ 
+    public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
-        a = sc.nextInt();        
-        b = sc.nextInt();
-        c = sc.nextInt();
-        d = sc.nextInt();
-        diferenca =(a*b) - (c*d);
+        
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+        int D = sc.nextInt();
+ 
+        int diferenca = (A * B) - (C * D);
+ 
         System.out.println("DIFERENCA = " + diferenca);
+        
         sc.close();
     }
-
 }
