@@ -19,6 +19,7 @@ A maioria das soluções foi desenvolvida utilizando:
 *  **Python**
 *  **Java**
 *  **C++**
+*  **C**
 
 
 ## 🗂️ Estrutura do Repositório
