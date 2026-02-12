@@ -11,7 +11,6 @@ As soluções estão organizadas por pastas correspondentes a cada plataforma:
 
 - **[LeetCode](https://leetcode.com/):** Foco em entrevistas técnicas e padrões de algoritmos.
 - **[Beecrowd](https://www.beecrowd.com.br/) (Antigo URI):** Problemas de lógica, matemática e estruturas de dados.
-- **[HackerRank](https://www.hackerrank.com/):** 
 
 
 ## 🛠️ Tecnologias Utilizadas
