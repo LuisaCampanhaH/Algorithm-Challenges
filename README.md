@@ -3,8 +3,6 @@
 Bem-vindo(a) ao meu repositório de soluções para desafios de programação! Aqui concentro meus estudos de algoritmos e estruturas de dados resolvendo problemas de diversas plataformas.
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/SEU-USUARIO/NOME-DO-REPO?style=flat-square)
-![Language](https://img.shields.io/badge/language-Python%20%7C%20C%2B%2B%20%7C%20Java-blue?style=flat-square)
-
 ## 📚 Plataformas
 
 As soluções estão organizadas por pastas correspondentes a cada plataforma:
