@@ -34,6 +34,4 @@ O repositório segue a seguinte estrutura de pastas:
 │   └── hard/
 ├── beecrowd/
 │   ├── iniciante/
-│   ├── ad-hoc/
-│   └── grafos/
 └── README.md
