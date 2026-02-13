@@ -13,7 +13,6 @@ As soluções estão organizadas por pastas correspondentes a cada plataforma:
 ## 🛠️ Tecnologias Utilizadas
 
 A maioria das soluções foi desenvolvida utilizando:
-*  **Python**
 *  **Java**
 *  **C++**
 *  **C**
