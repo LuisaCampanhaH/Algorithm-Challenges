@@ -15,7 +15,7 @@ As soluções estão organizadas por pastas correspondentes a cada plataforma:
 A maioria das soluções foi desenvolvida utilizando:
 *  **Java**
 *  **C++**
-*  **C**
+
 
 
 ## 🗂️ Estrutura do Repositório
