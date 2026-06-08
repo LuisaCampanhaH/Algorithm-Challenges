@@ -26,6 +26,4 @@ O repositório segue a seguinte estrutura de pastas:
 ├── leetcode/
 │   ├── easy/
 │   ├── medium/
-├── beecrowd/
-│   ├── iniciante/
 └── README.md
