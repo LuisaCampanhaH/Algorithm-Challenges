@@ -1,29 +1,70 @@
-# 🚀 Coding Challenges & Algorithms
+# Algorithm Challenges 🧠
 
-Bem-vindo(a) ao meu repositório de soluções para desafios de programação! Aqui concentro meus estudos de algoritmos e estruturas de dados resolvendo problemas de diversas plataformas.
+Solutions to competitive programming and technical interview problems, implemented across multiple languages to explore different approaches and performance trade-offs.
 
-## 📚 Plataformas
+> **Active repository** — updated regularly as I progress through the curriculum and prepare for technical interviews.
 
-As soluções estão organizadas por pastas correspondentes a cada plataforma:
+---
 
-- **[LeetCode](https://leetcode.com/):** Foco em entrevistas técnicas e padrões de algoritmos.
+## 🗂️ Structure
 
-
-## 🛠️ Tecnologias Utilizadas
-
-A maioria das soluções foi desenvolvida utilizando:
-*  **Java**
-*  **C++**
-
-
-
-## 🗂️ Estrutura do Repositório
-
-O repositório segue a seguinte estrutura de pastas:
-
-```text
+```
 /
 ├── leetcode/
 │   ├── easy/
 │   ├── medium/
+│   └── hard/
 └── README.md
+```
+
+---
+
+## 🌐 Platforms
+
+| Platform | Focus |
+|---|---|
+| [LeetCode](https://leetcode.com/) | Technical interview patterns, data structures, algorithms |
+
+---
+
+## 💻 Languages
+
+Each problem may be solved in one or more languages depending on what I'm studying at the time:
+
+| Language | Use case |
+|---|---|
+| C++ | Performance-critical solutions, competitive programming |
+| Java | Object-oriented patterns, interview simulation |
+| Python | Quick prototyping, readable solutions |
+| Go | Concurrency patterns, systems thinking |
+| TypeScript | Typed functional approaches |
+
+---
+
+## 📊 Progress
+
+| Difficulty | Solved |
+|---|---|
+| 🟢 Easy | - |
+| 🟡 Medium | - |
+| 🔴 Hard | - |
+| **Total** | **~10** |
+
+---
+
+## 🎯 Goals
+
+- [ ] Reach 50 solved problems
+- [ ] Cover core patterns: sliding window, two pointers, BFS/DFS, dynamic programming, graphs
+- [ ] Solve at least one hard problem per topic
+- [ ] Consistent weekly practice
+
+---
+
+## 📌 Notes
+
+Solutions prioritize clarity and include comments explaining the approach and time/space complexity where relevant.
+
+---
+
+*by [Luisa Campanha](https://github.com/LuisaCampanhaH)*
